@@ -90,18 +90,18 @@
     color: #ffffff;
     border-radius: 4px;
 }
-
 .swiper-button-next, 
-.swiper-rtl 
-.swiper-button-prev {
+.swiper-rtl .swiper-button-prev {
     right: var(--swiper-navigation-sides-offset, 5%);
     left: auto;
     width: 50px;
     height: auto;
     padding: 10px;
     background: rgba(0, 0, 0, 0.48);
-    color: var(--secondary);
+    color: #ffffff;
     border-radius: 4px;
 }
+
+
 
 /* End of css */

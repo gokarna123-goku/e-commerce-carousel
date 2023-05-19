@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: center;
     padding: 0px 60px;
+    background: linear-gradient(45deg, rgba(10, 149, 192, 0.7), rgba(122, 10, 192, 0.7));
 }
 
 

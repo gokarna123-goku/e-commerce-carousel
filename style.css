@@ -1,4 +1,93 @@
 /*  */
 
 
+/*  */
+
+
+
+/* Hero Section */
+.hero_section{
+    width: 100%;
+    height: auto;
+}
+.swiper-slide{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px;
+}
+
+.autoplay-progress {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--secondary);
+    background: rgba(25, 167, 206, 0.07);
+}
+
+.autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--secondary);
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+}
+.swiper-horizontal>.swiper-pagination-bullets, 
+.swiper-pagination-bullets.swiper-pagination-horizontal, 
+.swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom, 4%);
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+}
+.swiper-button-prev, 
+.swiper-rtl 
+.swiper-button-next {
+    left: var(--swiper-navigation-sides-offset, 5%);
+    right: auto;
+    width: 50px;
+    height: auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.48);
+    color: var(--secondary);
+    border-radius: 4px;
+}
+.swiper-button-next, 
+.swiper-rtl 
+.swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, 5%);
+    left: auto;
+    width: 50px;
+    height: auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.48);
+    color: var(--secondary);
+    border-radius: 4px;
+}
+
+
 /* End of css */
